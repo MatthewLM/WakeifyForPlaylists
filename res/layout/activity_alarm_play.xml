@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:layout_marginTop="10sp"
+	    android:id="@+id/root">
+    <TextView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:id="@+id/song_name"
+	    android:paddingTop="1sp"
+	    android:paddingLeft="10sp"
+	    android:textIsSelectable="false"/>
+    <Button 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/snooze"
+	    android:id="@+id/snooze"
+	    android:layout_margin="10dp"
+	    android:onClick="onSnooze"
+	    android:textSize="30sp"/>
+    <Button
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="@string/turn_off"
+	    android:id="@+id/turn_off"
+	    android:layout_margin="10dp"
+	    android:onClick="onTurnOff"
+	    android:textSize="30sp"/>
+</LinearLayout>

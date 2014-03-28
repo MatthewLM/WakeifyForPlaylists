@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="app_name">Wakeify for Playlists</string>
+    <string name="add_alarm">Add Alarm</string>
+    <string name="logout">Logout</string>
+    <string name="facebook">Facebook</string>
+    <string name="report">Report Problem</string>
+    <string name="done">Done</string>
+    <string name="delete">Delete</string>
+    <string name="title_login_activity">Spotify Login</string>
+    <string name="title_activity_edit_songs">Select Playlist</string>
+    <string name="title_activity_main">Wakeify Alarms</string>
+    <string name="title_activity_add_alarm">Add Alarm</string>
+    <string name="title_activity_weekday_selection">Select Weekdays</string>
+    <string name="title_activity_edit_alarm">Edit Alarm</string>
+    <string name="title_activity_alarm_play">Wakey Wakey</string>
+    <string name="time">Time</string>
+    <string name="snooze_time">Snooze Minutes</string>
+    <string name="days_of_the_week">Days of the week</string>
+    <string name="playlists">Playlist</string>
+    <string name="volume_ramp_time">Volume Ramping</string>
+    <string name="volume">Volume</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="name">Name</string>
+    <string name="snooze">SNOOZE</string>
+    <string name="turn_off">TURN OFF</string>
+    <string name="sign_in">Spotify Login</string>
+    <string name="signing_in">Signing in&#8230;</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="spotifyLogoDesc">Required Spotify logo according to API terms</string>
+
+</resources>

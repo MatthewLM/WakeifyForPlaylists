@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="5dp"
+    	android:paddingBottom="5dp"
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+    	android:onClick="onNameClick">
+    	
+        <TextView
+        	android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+    		android:text="@string/name"
+    		android:textSize="20sp"/>
+        <TextView
+        	android:layout_width="fill_parent"
+    		android:layout_height="match_parent"
+    		android:id="@+id/name_edit"
+    		android:textSize="20sp"
+    		android:gravity="right"
+    		android:textIsSelectable="false"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="5dp"
+    	android:paddingBottom="5dp"
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+    	android:onClick="onTimeClick">
+    	
+        <TextView
+        	android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+    		android:text="@string/time"
+    		android:textSize="20sp"/>
+        <TextView
+        	android:layout_width="fill_parent"
+    		android:layout_height="match_parent"
+    		android:id="@+id/time_edit"
+    		android:textSize="20sp"
+    		android:gravity="right"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="5dp"
+    	android:paddingBottom="5dp"
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+    	android:onClick="onSnoozeTimeClick">
+    	
+        <TextView
+        	android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+    		android:text="@string/snooze_time"
+    		android:textSize="20sp"/>
+        <TextView
+        	android:layout_width="fill_parent"
+    		android:layout_height="match_parent"
+    		android:id="@+id/snooze_edit"
+    		android:textSize="20sp"
+    		android:gravity="right"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="5dp"
+    	android:paddingBottom="5dp"
+    	android:paddingLeft="10dp"
+    	android:onClick="onWeekdaysClick">
+    	
+        <TextView
+        	android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+    		android:text="@string/days_of_the_week"
+    		android:textSize="20sp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="5dp"
+    	android:paddingBottom="5dp"
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+    	android:onClick="onPlaylistsClick">
+    	
+        <TextView
+        	android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+    		android:text="@string/playlists"
+    		android:textSize="20sp"/>
+        
+        <TextView
+        	android:layout_width="fill_parent"
+    		android:layout_height="match_parent"
+    		android:id="@+id/playlist_edit"
+    		android:textSize="20sp"
+    		android:gravity="right"
+    		android:textIsSelectable="false"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="5dp"
+    	android:paddingBottom="5dp"
+    	android:paddingLeft="10dp"
+    	android:paddingRight="10dp"
+    	android:onClick="onVolumeRampingClick">
+    	
+        <TextView
+        	android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+    		android:text="@string/volume_ramp_time"
+    		android:textSize="20dp"/>
+        <TextView
+        	android:layout_width="fill_parent"
+    		android:layout_height="match_parent"
+    		android:id="@+id/volume_ramping"
+    		android:textSize="20dp"
+    		android:gravity="right"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingTop="5dp"
+    	android:paddingBottom="5dp"
+    	android:paddingLeft="10dp">
+    	
+        <TextView
+        	android:layout_width="wrap_content"
+    		android:layout_height="match_parent"
+    		android:text="@string/volume"
+    		android:textSize="20dp"/>
+    </LinearLayout>
+    
+    <SeekBar
+        	android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:paddingLeft="30dp"
+    		android:paddingRight="30dp"
+    		android:id="@+id/volume_edit"
+    		android:max="100"/>
+
+</LinearLayout>

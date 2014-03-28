@@ -1,0 +1,9 @@
+.DS_Store
+gen
+obj
+libs
+jni/libspotify.so*
+jni/api.h
+jni/key.h
+.classpath
+bin

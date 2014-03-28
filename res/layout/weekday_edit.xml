@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:overScrollMode="always" >
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:paddingTop="5dp"
+	    	android:paddingBottom="5dp"
+	    	android:paddingLeft="10dp"
+	    	android:paddingRight="10dp"
+	    	android:onClick="onMondayClick">
+	    	
+	        <TextView
+	        	android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="@string/monday"
+	    		android:textSize="20sp"/>
+	
+	        <CheckBox
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:id="@+id/mondayBox"
+	            android:onClick="updateResult"/>
+	
+	    </RelativeLayout>
+	    
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:paddingTop="5dp"
+	    	android:paddingBottom="5dp"
+	    	android:paddingLeft="10dp"
+	    	android:paddingRight="10dp"
+	    	android:onClick="onTuesdayClick">
+	    	
+	        <TextView
+	        	android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="@string/tuesday"
+	    		android:textSize="20sp"/>
+	
+	        <CheckBox
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true" 
+	            android:id="@+id/tuesdayBox"
+	            android:onClick="updateResult"/>
+	
+	    </RelativeLayout>
+	    
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:paddingTop="5dp"
+	    	android:paddingBottom="5dp"
+	    	android:paddingLeft="10dp"
+	    	android:paddingRight="10dp"
+	    	android:onClick="onWednesdayClick">
+	    	
+	        <TextView
+	        	android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="@string/wednesday"
+	    		android:textSize="20sp"/>
+	
+	        <CheckBox
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true" 
+	            android:id="@+id/wednesdayBox"
+	            android:onClick="updateResult"/>
+	
+	    </RelativeLayout>
+	    
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:paddingTop="5dp"
+	    	android:paddingBottom="5dp"
+	    	android:paddingLeft="10dp"
+	    	android:paddingRight="10dp"
+	    	android:onClick="onThursdayClick">
+	    	
+	        <TextView
+	        	android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="@string/thursday"
+	    		android:textSize="20sp"/>
+	
+	        <CheckBox
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true" 
+	            android:id="@+id/thursdayBox"
+	            android:onClick="updateResult"/>
+	
+	    </RelativeLayout>
+	    
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:paddingTop="5dp"
+	    	android:paddingBottom="5dp"
+	    	android:paddingLeft="10dp"
+	    	android:paddingRight="10dp"
+	    	android:onClick="onFridayClick">
+	    	
+	        <TextView
+	        	android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="@string/friday"
+	    		android:textSize="20sp"/>
+	
+	        <CheckBox
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true" 
+	            android:id="@+id/fridayBox"
+	            android:onClick="updateResult"/>
+	
+	    </RelativeLayout>
+	    
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:paddingTop="5dp"
+	    	android:paddingBottom="5dp"
+	    	android:paddingLeft="10dp"
+	    	android:paddingRight="10dp"
+	    	android:onClick="onSaturdayClick">
+	    	
+	        <TextView
+	        	android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="@string/saturday"
+	    		android:textSize="20sp"/>
+	
+	        <CheckBox
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true" 
+	            android:id="@+id/saturdayBox"
+	            android:onClick="updateResult"/>
+	
+	    </RelativeLayout>
+	    
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:paddingTop="5dp"
+	    	android:paddingBottom="5dp"
+	    	android:paddingLeft="10dp"
+	    	android:paddingRight="10dp"
+	    	android:onClick="onSundayClick">
+	    	
+	        <TextView
+	        	android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:text="@string/sunday"
+	    		android:textSize="20sp"/>
+	
+	        <CheckBox
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:id="@+id/sundayBox"
+	            android:onClick="updateResult" />
+	
+	    </RelativeLayout>
+	
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/add_alarm"
+        android:title="@string/add_alarm"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/logout"
+        android:title="@string/logout"
+        android:orderInCategory="101"
+        android:showAsAction="never" />
+    <item android:id="@+id/facebook"
+        android:title="@string/facebook"
+        android:orderInCategory="102"
+        android:showAsAction="never" />
+    <item android:id="@+id/report"
+        android:title="@string/report"
+        android:orderInCategory="103"
+        android:showAsAction="never" />
+</menu>
